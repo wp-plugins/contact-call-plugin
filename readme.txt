@@ -1,6 +1,6 @@
 === Contact Call Widget - Voice Plugin for Websites ===
 Contributors: jagan.2desk
-Tags: widget, plugin, sidebar, contact, phone, call, click to call, voice, help, support, livehelp, contactcall, voip
+Tags: widget, plugin, sidebar, contact, phone, call, click to call, voice, help, support, livehelp, call us, contactcall, voip, live chat, push2call
 Requires at least: 2.7
 Tested up to: 3.2.1
 Stable tag: 1.1.1
@@ -16,7 +16,9 @@ Contact-Call plugin lets your website visitors call you from your website across
 
 NetworkWorld mentioned that Contact-Call is "an extension to your social media presence or Web site" and has given a *rating of 4.5/5.* Read about it here: <a href="http://www.networkworld.com/columnists/2011/022111gearhead.html">Push2Call Cloud Telephony Review</a>
 
-Also, here is Push2Call <a href="www.youtube.com/watch?v=dsSk4Bh-2Ts">introduction video</a>
+Here is Push2Call introduction video:
+<iframe width="560" height="349" src="http://www.youtube.com/embed/dsSk4Bh-2Ts" frameborder="0" allowfullscreen></iframe>
+
 
 **What is Contact-Call?**
 
