@@ -17,7 +17,7 @@ Contact-Call plugin lets your website visitors call you from your website across
 NetworkWorld mentioned that Contact-Call is "an extension to your social media presence or Web site" and has given a *rating of 4.5/5.* Read about it here: <a href="http://www.networkworld.com/columnists/2011/022111gearhead.html">Push2Call Cloud Telephony Review</a>
 
 Here is Push2Call introduction video:
-[youtube http://www.youtube.com/embed/dsSk4Bh-2Ts]
+[youtube www.youtube.com/watch?v=dsSk4Bh-2Ts]
 
 
 **What is Contact-Call?**
