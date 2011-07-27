@@ -1,6 +1,6 @@
-=== Contact Call widget - voice plugin for websites ===
+=== Contact Call Widget - Voice Plugin for Websites ===
 Contributors: jagan.2desk
-Tags: widget, plugin, sidebar, contact, phone, call, voice, help, support, livehelp, contactcall, voip
+Tags: widget, plugin, sidebar, contact, phone, call, click to call, voice, help, support, livehelp, contactcall, voip
 Requires at least: 2.7
 Tested up to: 3.2.1
 Stable tag: 1.1.1
@@ -14,7 +14,7 @@ FREE Call-Us button lets your web visitors call you from their browser or local 
 Contact-Call plugin lets your website visitors call you from your website across the globe for free. You can take call on your skype/GTalk/Mobile phone.
 
 
-Network world mentioned that Contact-Call is "an extension to your social media presence or Web site" and has given a *rating of 4.5/5.* Read about it here: <a href="http://www.networkworld.com/columnists/2011/022111gearhead.html">Push2Call Cloud Telephony Review</a>
+NetworkWorld mentioned that Contact-Call is "an extension to your social media presence or Web site" and has given a *rating of 4.5/5.* Read about it here: <a href="http://www.networkworld.com/columnists/2011/022111gearhead.html">Push2Call Cloud Telephony Review</a>
 
 Also, here is Push2Call <a href="www.youtube.com/watch?v=dsSk4Bh-2Ts">introduction video</a>
 
@@ -42,7 +42,7 @@ Publish the widget on your website, blog, LinkedIn, twitter and on your email an
 * Talk to more web visitors by adding call button anywhere on the web: Facebook, LinkedIn, Twitter, Blogger, Wordpress, Gmail, Yahoo Mail, Outlook 
 * Secure and reliable
 
-**How should I setup Contact-Call for my site**
+**How should I setup Contact-Call for my site?**
 
 Its very simple. Just follow the easy steps listed below
 
@@ -92,8 +92,7 @@ Here is <a href="http://www.pbxplus.com/sharednumbers.jsp">list of countries</a>
 3. Option 1 expanded
 4. Option 2 expanded
 5. Option 3 clicked
-6. Account Configuration
-7. Styling and customiation
+6. Setup, Styling and Customiation
 
 == Frequently Asked Questions ==
 
