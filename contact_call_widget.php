@@ -3,7 +3,7 @@
 Plugin Name: Contact Call Plugin
 Plugin URI: http://www.pbxplus.com
 Description: Contact Call Plugin allows you to receive calls from browser and local access numbers in more than 40 countries.
-Version: 1.0
+Version: 1.2
 Author: PBXPlus - Phone Company
 Author URI: http://www.pbxplus.com
 License: GPL2
