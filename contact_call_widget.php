@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Contact Call Plugin
-Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
+Plugin URI: http://www.pbxplus.com
 Description: Contact Call Plugin allows you to receive calls from browser and local access numbers in more than 40 countries.
 Version: 1.0
 Author: PBXPlus - Phone Company
-Author URI: http://push2call.invox.com
+Author URI: http://www.pbxplus.com
 License: GPL2
 */
 
@@ -375,7 +375,7 @@ h3{font-size:16px;height:20px;margin:0px;}
 		<!--hidden invox userid text filed-->
 		<input type="hidden" class="invinput" id = "invoxuserid" name="invoxuserid" value="<?php echo $invoxuserid?>" />
 		
-		<input type="text" class="invinput" id = "invoxsharedextension" name="invoxsharedextension" value="<?php echo $invoxsharedextension?>" />
+		<input type="hidden" class="invinput" id = "invoxsharedextension" name="invoxsharedextension" value="<?php echo $invoxsharedextension?>" />
 		<!--hidden task filed-->
 		<input type="hidden" class="invinput" name="task" value="add_submit" />
 		<p class="submit">
