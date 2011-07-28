@@ -3,7 +3,7 @@ Contributors: jagan.2desk
 Tags: widget, plugin, sidebar, contact, phone, call, click to call, voice, help, support, livehelp, call us, contactcall, voip, live chat, push2call
 Requires at least: 2.7
 Tested up to: 3.2.1
-Stable tag: 1.1.2
+Stable tag: trunk
 
 
 FREE Call-Us button lets your web visitors call you from their browser or local access numbers in 40+ countries. Answer on Skype, GTalk or any phone.
@@ -44,24 +44,6 @@ Publish the widget on your website, blog, LinkedIn, twitter and on your email an
 * Talk to more web visitors by adding call button anywhere on the web: Facebook, LinkedIn, Twitter, Blogger, Wordpress, Gmail, Yahoo Mail, Outlook 
 * Secure and reliable
 
-**How should I setup Contact-Call for my site?**
-
-Its very simple. Just follow the easy steps listed below
-
-* Install and activate Contat-Call plugin
-* Setup your preferences - User interface (color, layout etc) and phone preferences (where do you want to take calls etc)
-* Save the preferences
-* Done!! You are now live and are ready to take calls from your customers.
-
-**What much does it cost?**
-
-**For webvisitor:** FREE. Yes, your web visitors do not pay anything for the call. They can just use the browser phone option to make free VoIP call directly from their internet browser. They can also use Skype on their local computers to call you for free.
-
-Alternatively, they can select their current locales and get a local phone number in that country that they can call to reach you. We currently support 40 countries and are continously adding more.
-
-Here is <a href="http://www.pbxplus.com/sharednumbers.jsp">list of countries</a> we currently support
-
-**For website owners:** FREE, if you take calls on your Skype/GTalk. If you need to forward to landline/mobiles, please subscribe to any of our paid plans. For more information, click <a href="http://www.pbxplus.com/pricing.jsp">here</a>
 
 **7 Reasons why Networkworld raves about the Call-Us button**
 
@@ -102,6 +84,17 @@ Here is <a href="http://www.pbxplus.com/sharednumbers.jsp">list of countries</a>
 
 The plugin comes with a free plan. You can upgrade anytime to get advanced features. Please visit  http://www.pbxplus.com to get more information.
 
+= What much does it cost? =
+
+**For webvisitor:** FREE. Yes, your web visitors do not pay anything for the call. They can just use the browser phone option to make free VoIP call directly from their internet browser. They can also use Skype on their local computers to call you for free.
+
+Alternatively, they can select their current locales and get a local phone number in that country that they can call to reach you. We currently support 40 countries and are continously adding more.
+
+Here is <a href="http://www.pbxplus.com/sharednumbers.jsp">list of countries</a> we currently support
+
+**For website owners:** FREE, if you take calls on your Skype/GTalk. If you need to forward to landline/mobiles, please subscribe to any of our paid plans. For more information, click <a href="http://www.pbxplus.com/pricing.jsp">here</a>
+
+
 = Do I have to install any hardware software on my premises to use this widget? =
 
 Contact-Call is a hosted, cloud based telephony service and does not need you to install any additional hardware or software. Simply configure the plugin to suit your preferences and you should be up and running in minutes.
@@ -120,5 +113,15 @@ After enabling the plug in, head on to the widget customization page to change s
 *Server Requirements:* PHP4 or PHP5 with PHP Curl installed.
 
 *Wordpress versions:* Wordpress 2.7 and up.
+
+**How should I setup Contact-Call for my site?**
+
+Its very simple. Just follow the easy steps listed below
+
+* Install and activate Contat-Call plugin
+* Setup your preferences - User interface (color, layout etc) and phone preferences (where do you want to take calls etc)
+* Save the preferences
+* Done!! You are now live and are ready to take calls from your customers.
+
 
 *Thanks for using us* :)
