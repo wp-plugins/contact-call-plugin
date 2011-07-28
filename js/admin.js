@@ -53,7 +53,7 @@ function validatePush2Call(e)
 		return false;
 	}
 	
-	alert(forwardType + " " + forwardValue);
+	//alert(forwardType + " " + forwardValue);
 	
 	// Check if gtalk is properly configured
 	if(forwardType.toLowerCase() == "google-talk" && !isValidEmailAddress(forwardValue))
