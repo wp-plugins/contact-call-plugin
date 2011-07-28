@@ -3,7 +3,7 @@ Contributors: jagan.2desk
 Tags: widget, plugin, sidebar, contact, phone, call, click to call, voice, help, support, livehelp, call us, contactcall, voip, live chat, push2call
 Requires at least: 2.7
 Tested up to: 3.2.1
-Stable tag: trunk
+Stable tag: 1.2
 
 
 FREE Call-Us button lets your web visitors call you from their browser or local access numbers in 40+ countries. Answer on Skype, GTalk or any phone.
