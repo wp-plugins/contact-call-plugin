@@ -1,9 +1,9 @@
-=== Contact Call Widget - Voice Plugin for Websites ===
+=== Contact Call Plugin - Voice Plugin for Websites ===
 Contributors: jagan.2desk
 Tags: widget, plugin, sidebar, contact, phone, call, click to call, voice, help, support, livehelp, call us, contactcall, voip, live chat, push2call
 Requires at least: 2.7
 Tested up to: 3.2.1
-Stable tag: trunk
+Stable tag: 1.2
 
 
 FREE Call-Us button lets your web visitors call you from their browser or local access numbers in 40+ countries. Answer on Skype, GTalk or any phone.
@@ -11,8 +11,7 @@ FREE Call-Us button lets your web visitors call you from their browser or local 
 
 == Description ==
 
-Contact-Call plugin lets your website visitors call you from your website across the globe for free. You can take call on your skype/GTalk/Mobile phone.
-
+Contact-Call plugin lets your website visitors call and contact you from your website across the globe for free. You can take call on your skype/GTalk/Mobile phone.
 
 NetworkWorld mentioned that Contact-Call is "an extension to your social media presence or Web site" and has given a *rating of 4.5/5.* Read about it here: <a href="http://www.networkworld.com/columnists/2011/022111gearhead.html">Push2Call Cloud Telephony Review</a>
 
@@ -22,27 +21,28 @@ Here is Push2Call introduction video:
 
 **What is Contact-Call?**
 
-Contact-Call is a plugin that lets you embed 'Call Us' button on your website to let your website visitors call you directly from your website for free. It helps lot of businesses globally competitive instantly. 
+Contact-Call is a plugin that lets you embed 'Call Us' button on your website to let your website visitors call you directly from your website for free. It implements a simple click to call function and helps lot of businesses globally competitive instantly by allowing visitors to contact instantly. 
 
 Contact-Call offers 3 ways for web visitors to call you:
 
 * Direct call from an Internet browser
 * User can select their current locale and Contact-Call will create a local phone number in that country
-* Skype 
+* Skype Call
 
-You (website owner) can take the call directly on your Skype/GTalk/Mobile or Landline
+You (website owner) can take the call directly on your Skype, GTalk, Mobile or Landline
 
 Publish the widget on your website, blog, LinkedIn, twitter and on your email and start receiving calls from your web visitors.
 
 **Why should I install Contact-Call?**
 
-* Provide an opportunity for your web visitors to talk to you
+* Provide an opportunity for your web visitors to call and talk to you
 * Instantly take your business to global audience
+* Provide live help and support to website visitors. No contact forms to fill.
 * Get more sales from increased customer base, conversions and customer satisfaction
-* Get local numbers in more than 40 countries. Go global and win local trust.
+* Get local phone numbers in more than 40 countries. Go global and win local trust.
 * Take the calls the way you like - On your Skype/GTalk/Mobile or Landline
 * Talk to more web visitors by adding call button anywhere on the web: Facebook, LinkedIn, Twitter, Blogger, Wordpress, Gmail, Yahoo Mail, Outlook 
-* Secure and reliable
+* Secure and reliable call plugin
 
 
 **7 Reasons why Networkworld raves about the Call-Us button**
@@ -55,7 +55,7 @@ Publish the widget on your website, blog, LinkedIn, twitter and on your email an
 
 4. Unlimited call forwarding to Skype/GTalk
 
-5. Works with any phone: Skype, Google Talk, SIP, Landline or Mobile
+5. Works with any phone: Skype, Google Talk, SIP, Landline or Mobile phone
 
 6. Customers can reach you from 40 countries
 
@@ -64,7 +64,11 @@ Publish the widget on your website, blog, LinkedIn, twitter and on your email an
 
 == Changelog ==
 
-= 0.1.0 =
+= 1.2 = 
+* Few minor fixes
+* Updated links in plugin
+
+= 1.1 =
 
 * Feature: Add the Contact-Call live chat Call-Us button to your website based on your preferences
 
@@ -73,9 +77,9 @@ Publish the widget on your website, blog, LinkedIn, twitter and on your email an
 
 1. Contact-Call bar docked on your website - minimized
 2. Contact-Call popup when the bar is clicked - 3 options for visitor to call
-3. Option 1 expanded
-4. Option 2 expanded
-5. Option 3 clicked
+3. Option 1 - Call from website (VoIP call)
+4. Option 2 - Call from phone by dialing local number
+5. Option 3 - Call from Skype
 6. Setup, Styling and Customiation
 
 == Frequently Asked Questions ==
@@ -106,7 +110,7 @@ Please visit http://www.pbxplus.com/push2call.jsp or send us an email at support
 
 == Usage ==
 
-After enabling the plug in, head on to the widget customization page to change settings and integrate it's look and feel with your site. When done, enable it by visiting the account configuration page and completing the instant signup process. 
+After enabling the plug in, head on to the plugin customization page to change settings and integrate it's look and feel with your site. When done, enable it by visiting the account configuration page and completing the instant signup process. 
 
 == Installation ==
 
@@ -121,7 +125,7 @@ Its very simple. Just follow the easy steps listed below
 * Install and activate Contat-Call plugin
 * Setup your preferences - User interface (color, layout etc) and phone preferences (where do you want to take calls etc)
 * Save the preferences
-* Done!! You are now live and are ready to take calls from your customers.
+* Done!! You are now live and are ready to take free calls from your customers.
 
 
 *Thanks for using us* :)
