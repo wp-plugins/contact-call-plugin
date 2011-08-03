@@ -59,7 +59,7 @@ Publish the widget on your website, blog, LinkedIn, twitter and on your email an
 
 6. Customers can reach you from 40 countries
 
-7. Access to weekly stats on all calls made through the Call-Us button
+7. Access to weekly stats on all contact calls made through the Call-Us button
 
 
 == Changelog ==
