@@ -18,21 +18,22 @@ NetworkWorld mentioned that Contact-Call is "an extension to your social media p
 Here is Push2Call introduction video:
 [youtube www.youtube.com/watch?v=dsSk4Bh-2Ts]
 
-Compatible and works in parallel with zopim, clickdesk, livechatinc and banckle live chat plugins. You have the text chat power on your wordpress, now get even more with the Contact Call live call plugin for visitors to contact you directly.
+Contact Call is compatible and works in parallel with zopim, clickdesk, livechatinc and banckle live chat plugins. You have the text chat power on your wordpress, now get even more with the Contact Call live call plugin for visitors to contact you directly.
 
 **What is Contact-Call?**
 
-Contact Call is a social plugin that lets you embed 'Call Us' button on your website to let your website visitors call you directly from your website for free. It implements a simple click2call (call me) function and helps lot of businesses globally competitive instantly by allowing visitors to contact instantly. 
+Contact Call is a social plugin that lets you embed 'Call Us' button on your website to let your website visitors call and you directly without a contact form your website for free. It implements a simple click2call (call me) function and helps lot of businesses globally competitive instantly by allowing visitors to contact instantly. 
+Contact Call offers flexible, easiest and instant way to reach you than a contact form in wordpress.
 
 Contact-Call offers 3 ways for web visitors to call you:
 
 * Direct click to call functionality from Internet browser
 * User can select their current locale and Contact-Call will create a local phone number in that country
-* Skype Call - Visitors can skype call you directly with knowing your skype handle.
+* Skype Call - Visitors can skype call you directly with knowing your skype handle
 
-You (website owner) can take the call directly on your Skype, GTalk, Mobile or Landline
+You (website owner) can take the call directly on your Skype, GTalk, Google voice, Mobile or Landline
 
-Publish the widget on your website, blog, LinkedIn, twitter and on your email and start receiving calls from your web visitors.
+Publish the widget on your website, blog, LinkedIn, twitter and on your email and start receiving calls from your web visitors. 
 
 **Why should I install Contact-Call?**
 

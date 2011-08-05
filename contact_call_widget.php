@@ -410,7 +410,9 @@ h3{font-size:16px;height:20px;margin:0px;}
 	<br/>
 	<b>What is PBX+</b>
 	<p>PBX+ is a next-generation phone system that works with your current setup. There is no software or hardware to install or buy. PBX+ answers calls and greets your callers by your customized business greeting - "Thanks for calling xyz corp. Please enter the extension you are trying to reach - Press 1 for sales, 2 for support, 3 for John.. .". Then PBX+ routes the calls based on caller's preference for extension. Know your caller plugin a feature of PBX+ enables you to know the callers, when was the last time they called and you can leave notes on their calls. Also you can pull in caller data from CRMs such as Salesforce, ZOHO and Sugar.</p>
-	
+	<p></p>
+	<p><b>Interested in providing live chat to your web visitors?</b></p>
+	<p>ClickDesk is the first social live chat service to integrate social communications and voice support (VoIP) into the fastest live chat service. <a href="http://clickdesk.com">Get ClickDesk for FREE</a></p>
 	
 	<?php
 
