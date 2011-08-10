@@ -3,8 +3,8 @@
 Plugin Name: Contact Call Plugin
 Plugin URI: http://www.pbxplus.com
 Description: Contact Call Plugin allows you to receive calls from browser and local access numbers in more than 40 countries.
-Version: 1.0
-Author: PBXPlus - Phone Company
+Version: 1.3a
+Author: PBXPlus - Phone Company (Modified by Chris Jean of iThemes.com)
 Author URI: http://www.pbxplus.com
 License: GPL2
 */
@@ -18,54 +18,87 @@ define('VOICELO_ICON_URL', "http://cdn-site.invox.com/images/wp_fav.ico");
 define('VOICELO_NUMBERS_URL', "http://phone.invox.com/widgetconfig/publishWidget/voicelo_dids.html?ext=");
 
 // Wordpress DB
-define('VOICELO_DB_SIDE', "contact_call_widget_side");
-define('VOICELO_DB_POSITION', "contact_call_widget_position");
-define('VOICELO_DB_COLOR', "contact_call_widget_color");
-define('VOICELO_DB_FORWARD_TYPE', "contact_call_widget_forward_type");
-define('VOICELO_DB_FORWARD_VALUE', "contact_call_widget_forward_value");
-define('VOICELO_DB_USER_EMAIL', "contact_call_widget_user_email");
-define('VOICELO_DB_USER_BASE_URL', "contact_call_widget_user_base_url");
-define('VOICELO_DB_INVOX_USER_ID', "contact_call_widget_invox_user_id");
-define('VOICELO_DB_INVOX_SHARED_EXTENSION', "contact_call_widget_invox_shared_extension");
+define( 'VOICELO_DB_OPTION_NAME', 'contact_call_widget_option' );
 
 
-// Init Contact Call Widget - Add Widget js at client side and admin.js at server side
-function contact_call_widget_admin_init() {
-
-	// Load Widget.js at user end and admin.js for admin
-	$uri = $_SERVER['REQUEST_URI'];
-	if(!strstr($uri,'wp-admin') && !strstr($uri,'wp-login'))
-	{	
-		// echo 'Do not touch it at admin side';
-	}
-	else
-		wp_enqueue_script('push2call_script_client', plugins_url('/js/admin.js', __FILE__), array('jquery'), '1.0.1',true);	   	
-}	
-
-
-function contact_call_widget_init()
-{
-
-	// Load Widget.js at user end and admin.js for admin
-	$uri = $_SERVER['REQUEST_URI'];
-	if(!strstr($uri,'wp-admin') && !strstr($uri,'wp-login'))
-	{					
-		$forward_type = get_option(VOICELO_DB_FORWARD_TYPE);
-		$forward_value = get_option(VOICELO_DB_FORWARD_VALUE);
-		$position = get_option(VOICELO_DB_POSITION);
-		$side = get_option(VOICELO_DB_SIDE);
-		$color = get_option(VOICELO_DB_COLOR);
-		$user_email  = get_option(VOICELO_DB_USER_EMAIL);
-		$user_url = get_option(VOICELO_DB_USER_BASE_URL);
-		$invoxuserid = get_option(VOICELO_DB_INVOX_USER_ID);
-		$invoxsharedextension = get_option(VOICELO_DB_INVOX_SHARED_EXTENSION);
-
-		if($invoxuserid != '')
-		{
+function contact_call_widget_get_default_options() {
+	$default_options = array(
+		'forward_type'         => '',
+		'forward_value'        => '',
+		'position'             => '50',
+		'color'                => '565656',
+		'side'                 => 'left',
+		'user_email'           => '',
+		'user_url'             => '',
+		'invoxuserid'          => '',
+		'invoxsharedextension' => '',
+	);
 	
-		?>
-		
-		<!-- Start of InVox.com Widget -->
+	return $default_options;
+}
+
+function contact_call_widget_get_options() {
+	$default_options = contact_call_widget_get_default_options();
+	$options = get_option( VOICELO_DB_OPTION_NAME );
+	
+	if ( ( false === $options ) || ! is_array( $options ) )
+		$options = array();
+	
+	$options = array_merge( $default_options, $options );
+	
+	
+	return $options;
+}
+
+function contact_call_widget_get_options_from_post() {
+	$default_options = contact_call_widget_get_default_options();
+	
+	$options = array();
+	
+	foreach ( array_keys( $default_options ) as $key ) {
+		if ( isset( $_POST[$key] ) )
+			$options[$key] = $_POST[$key];
+	}
+	
+	return $options;
+}
+
+function contact_call_widget_save_options( $options ) {
+	$default_options = contact_call_widget_get_default_options();
+	$options = array_merge( $default_options, $options );
+	
+	return update_option( VOICELO_DB_OPTION_NAME, $options );
+}
+
+// Remove dbs while Uninstalling 
+function contact_call_widget_uninstall() {
+	// Delete all options for db
+	delete_option( VOICELO_DB_OPTION_NAME );
+}
+
+
+function contact_call_widget_add_admin_scripts() {
+	wp_enqueue_script( 'push2call_script_client', plugins_url( '/js/admin.js', __FILE__ ), array( 'jquery' ), '1.0.1', true );
+}
+
+function contact_call_widget_add_admin_styles() {
+	wp_enqueue_style( 'push2call_style_client', plugins_url( '/css/admin.css', __FILE__ ) );
+}
+
+function contact_call_widget_add_scripts() {
+	$options = contact_call_widget_get_options();
+	
+	if ( empty( $options['invoxuserid'] ) )
+		return;
+	
+	
+	extract( $options );
+	
+	
+	wp_enqueue_script('push2call_script_client', plugins_url('/js/widget.js', __FILE__), array('jquery'), '1.0.1',true);
+	
+?>
+	<!-- Start of InVox.com Widget -->
 	<script  type="text/javascript">
 	var _inv = {};
 	_inv.invoxid = '<?php echo $invoxuserid ?>';
@@ -75,36 +108,16 @@ function contact_call_widget_init()
 	_inv.position = '<?php echo $position ?>%';
 	</script>
 	<!-- End of InVox.com Widget -->
+<?php
 	
-	<?php
-	
-		 wp_enqueue_script('push2call_script_client', plugins_url('/js/widget.js', __FILE__), array('jquery'), '1.0.1',true);	   	
-	
-	
-		}
-	}
 }
 
-
-// Remove dbs while Uninstalling 
-function contact_call_widget_uninstall() {
-   
-	// Delete all options for db
-	delete_option(VOICELO_DB_SIDE);
-	delete_option(VOICELO_DB_POSITION);
-	delete_option(VOICELO_DB_COLOR);
-	delete_option(VOICELO_DB_FORWARD_TYPE);
-	delete_option(VOICELO_DB_FORWARD_VALUE);
-	delete_option(VOICELO_DB_USER_EMAIL);
-	delete_option(VOICELO_DB_USER_BASE_URL);
-	delete_option(VOICELO_DB_INVOX_USER_ID);
-	delete_option(VOICELO_DB_INVOX_SHARED_EXTENSION);
-}
 
 /******************* Contact Call Widget Install *******************************************/
 
-add_action("init", "contact_call_widget_admin_init");
-add_action("wp_print_scripts", "contact_call_widget_init");
+if ( ! is_admin() )
+	add_action("wp_print_scripts", "contact_call_widget_add_scripts");
+
 register_deactivation_hook(__FILE__, 'contact_call_widget_uninstall');
 
 /******************* End of Contact Call Widget Install ************************************/
@@ -122,7 +135,10 @@ function voicelo_create_menu() {
    add_menu_page('Account Configuration', 'Contact-Call Widget', 'administrator', 'voicelo_account_config', 'voicelo_account_config',VOICELO_ICON_URL);
    
    // Setup menu
-   add_submenu_page('voicelo_account_config', 'Account Configuration', 'Setup', 'administrator', 'voicelo_account_config', 'voicelo_account_config');
+   $page_ref = add_submenu_page('voicelo_account_config', 'Account Configuration', 'Setup', 'administrator', 'voicelo_account_config', 'voicelo_account_config');
+
+   add_action( "admin_print_scripts-$page_ref", 'contact_call_widget_add_admin_scripts' );
+   add_action( "admin_print_styles-$page_ref", 'contact_call_widget_add_admin_styles' );
    
    // Preview menu
    //add_submenu_page('voicelo_account_config', 'Voicelo Preview', 'Preview', 'administrator', 'voicelo_test', 'test_voicelo');
@@ -141,6 +157,7 @@ function voicelo_create_menu() {
 
 }
 
+/*
 // Test
 function test_voicelo() {
 
@@ -200,6 +217,7 @@ function business_voicelo() {
  
   <?php
 }   
+*/
 
 
 /********************* End of Menu Options ***********/				
@@ -208,20 +226,17 @@ function business_voicelo() {
 
 /********************* Configure settings for invox api ***********/				
 function voicelo_account_config() {
+	// Set default values for $task, $msg, and $success to avoid warnings
+	$task = $msg = $success = '';
 	
-	$task=$_POST['task'];
-	if($task == 'add_submit'){
+	// Do a check to verify that $_POST['task'] is set to prevent warnings
+	if ( isset( $_POST['task'] ) )
+		$task = $_POST['task'];
+	
+	if ( 'add_submit' == $task ) {
+		$options = contact_call_widget_get_options_from_post();
+		extract( $options );
 		
-		
-		$forward_type = $_POST['forward_type'];
-		$forward_value = $_POST['forward_value'];
-		$position = $_POST['position'];
-		$color = $_POST['color'];
-		$side = $_POST['side'];
-		$user_email  = $_POST['user_email'];
-		$user_url  = $_POST['user_url'];
-        $invoxuserid = $_POST['invoxuserid'];
-		$invoxsharedextension = $_POST['invoxsharedextension'];
 		if($forward_value == ''){
 			$msg = 'Please enter your number.';
 		}
@@ -239,48 +254,20 @@ function voicelo_account_config() {
 		}
 		
 		if($msg==''){
+			$result = contact_call_widget_save_options( $options );
 			
-			update_option(VOICELO_DB_FORWARD_TYPE, $forward_type );
-			update_option(VOICELO_DB_FORWARD_VALUE, $forward_value );			
-			update_option(VOICELO_DB_POSITION, $position);				
-			update_option(VOICELO_DB_SIDE, $side);
-			update_option(VOICELO_DB_COLOR, $color);
-			update_option(VOICELO_DB_USER_EMAIL, $user_email );
-			update_option(VOICELO_DB_USER_BASE_URL, $user_url );
-			update_option(VOICELO_DB_INVOX_USER_ID, $invoxuserid );
-			update_option(VOICELO_DB_INVOX_SHARED_EXTENSION, $invoxsharedextension );
-			
-			$success = 'Successfully saved';
+			if ( true == $result )
+				$success = 'Successfully saved';
+			else
+				$msg = 'Unable to save configuration due to an unknown error';
 		}
 	}else{
-				
-		$forward_type = get_option(VOICELO_DB_FORWARD_TYPE);
-		$forward_value = get_option(VOICELO_DB_FORWARD_VALUE);
-		$position = get_option(VOICELO_DB_POSITION);
-		$side = get_option(VOICELO_DB_SIDE);
-		$color = get_option(VOICELO_DB_COLOR);
-		$user_email  = get_option(VOICELO_DB_USER_EMAIL);
-		$user_url = get_option(VOICELO_DB_USER_BASE_URL);
-		$invoxuserid = get_option(VOICELO_DB_INVOX_USER_ID);
-		$invoxsharedextension = get_option(VOICELO_DB_INVOX_SHARED_EXTENSION);
+		$options = contact_call_widget_get_options();
+		extract( $options );
 	}
-
-	 if($position=='') $position = '50';
-	 if($side=='') $side = 'left';
-	// if($button_label=='') $button_label = 'Contact us';
-	if($color=='') $color = '565656';	
-	
 	
     ?>
 
-<style type="text/css">
-
-label{  float: left;  width: 120px;  margin-right: 5px; margin-bottom: 5px;margin-left:25px; text-transform: capitalize;}
-.invheader{background: #DFDFDF url("http://cdn-site.invox.com/images/wp_gray_grad.png") repeat-x left top;padding:8px;}
-.invbody{-moz-border-radius: 6px;-khtml-border-radius: 6px;-webkit-border-radius: 6px;border-radius: 6px;background-color: white;border: 1px solid #DFDFDF;}
-h3{font-size:16px;height:20px;margin:0px;}
-.invinput{margin-bottom:5px;}
-</style>	
 <div class="wrap">	
 	<h2 style="margin-bottom:20px;">Configure Push2Call widget</h2>		
 	<?php 	
@@ -312,7 +299,7 @@ h3{font-size:16px;height:20px;margin:0px;}
 	    <b>Where do you wish to answer calls made by your web visitors?</b>
 		<br /><br />
 		<!-- Forward Type -->
-		<label for="invoxforwardtype">Forward Type:</label>	
+		<label for="forward_type">Forward Type:</label>	
 			<select name="forward_type" id="forward_type" onchange = "return forwardOption();" class="invinput">
 				<option value="Skype" <?php if($forward_type == 'Skype') echo 'selected="selected"';?> >Skype</option>
 				<option value="Google-Talk" <?php if($forward_type == 'Google-Talk') echo 'selected="selected"';?> >Google Talk </option>
@@ -323,7 +310,7 @@ h3{font-size:16px;height:20px;margin:0px;}
 		<br />
 		
 		<!-- Forward Value -->
-		<label for="invoxforwardvalue" id="invoxforwardvalue">Forward Value:</label>	
+		<label for="forward_value">Forward Value:</label>	
 		<input type="text" class="invinput" name="forward_value" id="forward_value" value="<?php echo $forward_value;?>" size="35"/>
 		<span class="description">Your Skype ID or Google Talk or SIP or Toll-free/US number.</span>	
 		<br/>
@@ -332,7 +319,7 @@ h3{font-size:16px;height:20px;margin:0px;}
 		<br /><b>Button Style</b>
 		<br /><br />
 		<!-- side -->
-		<label for="position">Side:</label>			 
+		<label for="side">Side:</label>			 
 			<select name="side" id='side' class="invinput">
 				<option value="top" <?php if($side=='top') echo 'selected="selected"';?>>Top</option>
 				<option value="bottom" <?php if($side=='bottom') echo 'selected="selected"';?>>Bottom</option>
@@ -410,24 +397,9 @@ h3{font-size:16px;height:20px;margin:0px;}
 	<br/>
 	<b>What is PBX+</b>
 	<p>PBX+ is a next-generation phone system that works with your current setup. There is no software or hardware to install or buy. PBX+ answers calls and greets your callers by your customized business greeting - "Thanks for calling xyz corp. Please enter the extension you are trying to reach - Press 1 for sales, 2 for support, 3 for John.. .". Then PBX+ routes the calls based on caller's preference for extension. Know your caller plugin a feature of PBX+ enables you to know the callers, when was the last time they called and you can leave notes on their calls. Also you can pull in caller data from CRMs such as Salesforce, ZOHO and Sugar.</p>
-	
-	
-	<?php
-
-	if($invoxuserid != '')
-	{
-	?>
-	
-	
-	
-	
-	<?php
-	}
-	
-	?>
-
-	
-	
+	<p></p>
+	<p><b>Interested in providing live chat to your web visitors?</b></p>
+	<p>ClickDesk is the first social live chat service to integrate social communications and voice support (VoIP) into the fastest live chat service. <a href="http://clickdesk.com">Get ClickDesk for FREE</a></p>
 	</div>
 	</div>
 </div>		
