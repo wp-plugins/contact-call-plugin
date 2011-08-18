@@ -18,7 +18,7 @@ NetworkWorld mentioned that Contact-Call is "an extension to your social media p
 Here is Push2Call introduction video:
 [youtube www.youtube.com/watch?v=dsSk4Bh-2Ts]
 
-Contact Call is compatible and works in parallel with zopim, clickdesk, livechatinc and banckle live chat plugins. You have the text chat power on your wordpress, now get even more with the Contact Call live call plugin for visitors to contact you directly.
+Contact Call is compatible and works in parallel with zopim, clickdesk, livechatinc, olark and banckle live chat plugins. You have the text chat power on your wordpress, now get even more with the Contact Call live call plugin for visitors to call you directly without contact forms.
 
 **What is Contact-Call?**
 
