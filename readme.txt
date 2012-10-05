@@ -1,166 +1,158 @@
-=== ClickDesk Live Support - Live Chat - Help Desk Plugin for Websites ===
-
+=== Contact Call Plugin - Voice Plugin for Websites ===
 Contributors: jagan.2desk
-
-Tags: widget, plugin, sidebar, side bar, feedback, contact, chat, livechat, live chat, help desk, helpdesk, email ticketing, ticketing, support software, live chat software, wordpress live chat, wordpress help desk, livechatinc, live chat inc, chat with visitors, web chat, webchat, facebook chat, phone, call, skype, zopim, zendesk, olark, banckle, clickdesk, click desk, live help, livehelp, livesupport, live support, contact call, contactcall, voip, chat on IM, IM Chat, online support, live contact, Gtalk, SkypeMe, Google Talk, AOL, MSN, ICQ, chat button, support, email, contact us, contact plugin, contact form, offline, twitter, facebook, csupport, help desk software, live chat wordpress, wordpress live chat plugin
-
+Tags: widget, plugin, sidebar, contact, phone, call, click to call, skype, voice, help, support, livehelp, call us, contactcall, voip, live chat, push2call, live chat, live support, live chat plugin, wordpress live chat plugin, live help, skype call plugin, gtalk call, voice plugin, call plugin
 Requires at least: 2.7
-Tested up to: 3.4.1
+Tested up to: 3.4.2
 Stable tag: 2.0
 
-ClickDesk provides a wonderful combo of lightning-fast live chat, built-in browser phone, lite help desk and social toolbar. Install it Free today!
+
+FREE Call-Us button lets your web visitors call you from their browser or local access numbers in 40+ countries. Answer on Skype, GTalk or any phone.
+
 
 == Description ==
 
-Besides being the fastest live chat service, ClickDesk also allows visitors to call your business directly from browser or by dialing our local access numbers in 40+ countries. Manage your emails & offline chats with the new integrated lite help desk.
+Contact-Call plugin lets your website visitors call and contact you from your website across the globe for free. You can take call on your skype/GTalk/Mobile phone.
 
-**"Top 10 must have plugins of 2011"** by MyProgrammingBlog.com
+**Download ClickDesk**
+If you are looking to provide both **online live chat and call** support - please install our ClickDesk plugin - http://wordpress.org/extend/plugins/clickdesk-live-support-chat-plugin/
 
-"An extension to your social media presence or Web site" - NetworkWorld 4.5/5
-
-**SPECIAL OFFER** 
-
-Get access to our new help desk for FREE
-
-[youtube http://www.youtube.com/watch?v=4Yiyaz0k8yk]
+**ClickDesk** got listed among the Top 10 most useful plugins of 2011 by My Programming Blog
 
 
-**Testimonials**
+NetworkWorld mentioned that Contact-Call is "an extension to your social media presence or Web site" and has given a *rating of 4.5/5.*
 
-* The process to install this wonderful plugin was fast and simple thanks to your tutorial movie. The plugin works great. I rated it with 6 stars, only because the plugin really earns it! keep up the good work and you make many people happy! Thanks again! - Rien
+Here is Push2Call introduction video:
+[youtube www.youtube.com/watch?v=dsSk4Bh-2Ts]
 
-* Thank you for creating such a wonderful service, it has clearly saved the day.
-Your service, ClickDesk, is simply amazing, I have searched the web for hours and came across tens of live chat applications, but using them were complicated and a pain in the head. When my search hit your site, it was different, I knew this is was the rite thing. From setup to usage, its capability of integrating with Skype and other IM applications is gorgeous, and clearly impressive. The back end user page is really neat and user friendly, and the user interface really cool. Once again thank you for making our lives feel good each by the super cool ClickDesk. - Akbar Asif
+Contact Call is compatible and works in parallel with zopim, clickdesk, livechatinc and banckle live chat plugins. You have the text chat power on your wordpress, now get even more with the Contact Call live call plugin for visitors to contact you directly.
 
-**Description**
+**What is Contact-Call?**
 
-ClickDesk for the first time in the industry **integrates live chat and voice chat directly into your IM** - you can conveniently take chats and answer calls on your IM on computer or mobile phone. Receive chats, calls and email ticket notifications on Google talk or Skype.
+Contact Call is a social plugin that lets you embed 'Call Us' button on your website to let your website visitors call and you directly without a contact form your website for free. It implements a simple click2call (call me) function and helps lot of businesses globally competitive instantly by allowing visitors to contact instantly. 
+Contact Call offers flexible, easiest and instant way to reach you than a contact form in wordpress.
 
-Lite help desk allows you to manage all your emails and offline chats from a simple and quick ticketing interface.
-Optional Push2Call **has a browser phone** and provides local access number in more than 40 countries for your visitors to reach your business. Optional Help Desk allows you to manage all your customer emails easily. 
+Contact-Call offers 3 ways for web visitors to call you:
 
-NetworkWorld - "an extension to your social media presence or Web site" - rates it 4.5/5.
+* Direct click to call functionality from Internet browser
+* User can select their current locale and Contact-Call will create a local phone number in that country
+* Skype Call - Visitors can skype call you directly with knowing your skype handle
 
-Here is the ClickDesk wordpress plugin setup video:
-[youtube http://www.youtube.com/watch?v=oWLMgBkfgaA]
+You (website owner) can take the call directly on your Skype, GTalk, Google voice, Mobile or Landline
 
-Provide instant answers to your visitors and get more sales. Convert your visitors into customers today!
+Publish the widget on your website, blog, LinkedIn, twitter and on your email and start receiving calls from your web visitors. 
 
-If you are 'offline' or 'busy' on your IM, ClickDesk live chat plugin displays a tiny **offline form** instead of the live chat and the messages are directly sent to your email. These offline chats are created as 'new tickets' in the built in lite help desk system. Never miss a lead again, even if you are offline!
+**Why should I install Contact-Call?**
 
-We provide templates, color pallete and north-south-east-west position for you to customize the live-chat button and chat forms matching your website.
-
-**Social integrations** with Twitter & Facebook allow your visitors to read your Twitter feed and become your follower directly from ClickDesk. Facebook tab shows all your fans and your visitors can like your fanpage directly.
-
-**What is ClickDesk live chat plugin?**
-
-ClickDesk social plugin lets you **embed 'Live Chat' button**, online and offline forms on your website to let your website visitors click to chat with you directly. Visitors can also make a call to your operator directly by using our free local access numbers in 40+ countries or from their web browser.  
-
-With integrated help desk, your agents can access all the emails and offline chats and answer your customer queries via email.
-Operators also receive IM notifications when a new ticket is created, updated or assigned to them.
-
-Benefits of ClickDesk
-
-* Receive **live chats on Gtalk, Skype**, MSN, Yahoo or AOL
-* Integrated help desk ticketing system to access your emails and offline chat messages
-* Built-in "Click to Call" button powered by Contact-Call plugin
-* Free to use plugin upto 30 chats per month - unlimited plans starting at $9.99/month
-* Fully hosted and Based on Google cloud
-* Integrated social toolbar with facebook, twitter and other social networks
-* Skype Call - Visitors can skype call you directly
-* **Combo of fastest live chat, VoIP phone and social toolbar**
-* Fully customizable - colors, themes, templates, position
-
-**Why should I install ClickDesk live support plugin?**
-
-* Provide an opportunity for your web visitors to live chat or talk to you
+* Provide an opportunity for your web visitors to call and talk to you
 * Instantly take your business to global audience
-* Get IM alerts for chats, calls and tickets (help desk)
 * Provide live help and support to website visitors. No contact forms to fill.
 * Get more sales from increased customer base, conversions and customer satisfaction
 * Get local phone numbers in more than 40 countries. Go global and win local trust.
-* Live help your visitors the way you like - On your Skype,  GTalk (Google talk), Mobile or Landline
-* Secure and reliable live support chat plugin
+* Take the calls the way you like - On your Skype,  GTalk (Google talk), Mobile or Landline
+* Talk live to more web visitors by adding call button anywhere on the web: Facebook, LinkedIn, Twitter, Blogger, Wordpress, Gmail, Yahoo Mail, Outlook 
+* Secure and reliable call plugin
+
+
+**7 Reasons why Networkworld raves about the Call-Us button**
+
+1. Unobtrusive, beautiful discreet call us button. Great user experience
+
+2. Quick deployment. Get your web visitors talking to you in no time
+
+3. No software to install, upgrade or maintain
+
+4. Unlimited call forwarding to Skype/GTalk
+
+5. Works with any phone: Skype, Google Talk, SIP, Landline or Mobile phone
+
+6. Customers can reach you from 40 countries
+
+7. Access to weekly stats on all contact calls made through the Call-Us button
 
 
 == Changelog ==
-
 
 = 2.0 =
 
 * Major Upgrade
 * Addition of live chat, call, voice chat & social toolbar
+* Bugs fixed
 
+= 1.3a =
 
-= 0.9a =
+* Moved the settings page CSS to a separate file.
+* Fixed the messed up labels.
+* Removed the unnecessary execute bits from the JS files.
+* Fixed few other minor bugs
 
-* Beta release of plugin
-* Feature: Add the live help chat support to your website with just a click!
+= 1.2 = 
+* Few minor fixes
+* Updated links in plugin
+
+= 1.1 =
+
+* Feature: Add the Contact-Call live chat Call-Us button to your website based on your preferences
 
 
 == Screenshots ==
 
-1. Templates
-2. Live support your visitors even on mobile!
-3. How ClickDesk works
-4. Live Support + VoIP Call
-5. Social Toolbar
-6. Signup/Login
-7. Add Operator
-8. Operator added successfully
-9. Department added and plugin installed successfully
-10. Live chat form (offline) on website
-11. Live chat (online)
-12. Help Desk Tickets
+1. Contact-Call bar docked on your website - minimized
+2. Contact-Call popup when the bar is clicked - 3 options for visitor to call
+3. Option 1 - Call from website (VoIP call)
+4. Option 2 - Call from phone by dialing local number
+5. Option 3 - Call from Skype
+6. Setup, Styling and Customiation
 
 == Frequently Asked Questions ==
 
-= Is it Free to use? =
+= Is it free to use? =
 
-Yes. Live chat plugin along with the wonderful combo feature of help desk, browser phone and is free to use for 1 operator and upto 30 chats per month. Paid plans start at $9.99/month.
+The voice call plugin comes with a free plan. You can upgrade anytime to get advanced features like dedicated phone numbers, caller information, widgets etc. Please visit  http://www.pbxplus.com to get more information.
 
 = What much does it cost? =
 
-**For webvisitor:** FREE. Your web visitors do not pay anything to live chat or call you to get their queries answered. 
+**For webvisitor:** FREE. Yes, your web visitors do not pay anything for the call. They can just use the browser phone option to make free VoIP call directly from their internet browser. They can also use Skype on their local computers to call you for free.
 
-**For website owners:** FREE to receive and chat with upto 30 sessions. To add more operators, departments or to upgrade to unlimited chats plan, please visit our <a href="http://www.clickdesk.com/pricing.jsp">pricing page</a>
+Alternatively, they can select their current locales and get a local phone number in that country that they can call to reach you. We currently support 40 countries and are continously adding more.
 
-= Do I get help desk feature for free? =
-Limited offer: All the signed up users can use help desk free.
+Here is <a href="http://www.pbxplus.com/sharednumbers.jsp">list of countries</a> we currently support
+
+**For website owners:** FREE, if you take calls on your Skype/GTalk. If you need to forward to landline/mobiles, please subscribe to any of our paid plans. For more information, click <a href="http://www.pbxplus.com/pricing.jsp">here</a>
 
 
 = Do I have to install any hardware software on my premises to use this widget? =
 
-ClickDesk live support is a hosted, cloud based live chat service and does not need you to install any additional hardware or software. Simply configure the plugin to suit your preferences and you should be up and running in minutes. 
+Contact-Call is a hosted, cloud based telephony service and does not need you to install any additional hardware or software. Simply configure the plugin to suit your preferences and you should be up and running in minutes.
+
+= How is this different from Skype call me buttons? =
+
+Contact Call offers not just skype call function. Besides, website visitors can you in two other options - from one click browser VoIP call or by dialing a local number in any of the 40 countries the service is provided to reach your business. The calls can be forwarded to any phone, IM or mobile.
 
 = It doesn't work yet, what to do? =
 
-Please visit http://www.clickdesk.com to live chat with one of our support operators or send us an email at support@clickdesk.com and we will help you with the installation.
+Please visit http://www.pbxplus.com/push2call.jsp or send us an email at support@pbxplus.com and we will help you with the installation.
 
 
 == Usage ==
 
-After installing and configuring the plugin, you need to signin to your IM (Gtalk, Skype, Yahoo or MSN) with the same account you used during setup. This takes your ClickDesk chat window on your wordpress site to "live" mode and your visitors can directly chat with your from your website.
+After enabling the plug in, head on to the plugin customization page to change settings and integrate it's look and feel with your site. When done, enable it by visiting the account configuration page and completing the instant signup process. 
 
-You receive the chats and call requests on your IM. Alternatively, you can also sign into these IMs from your smart phone and answer chats. 
-
-If you do not want to receive chats or wish to take ClickDesk to "offline" mode, you can either logoff from your IM or chage the status to 'busy' or 'away'.
-
+This plugin works seamlessly and you can answer calls from webvisitors even if you have any other chat plugins such as zopim, Banckle live chat or clickdesk running to offer live support chat. Even if you do not use any of these text live chat plugins, you can give this free call plugin a try to increase sales and conversions through your website.
 
 == Installation ==
 
-*Server Requirements:* PHP5 with PHP Curl installed.
+*Server Requirements:* PHP4 or PHP5 with PHP Curl installed.
 
-*Wordpress versions:* Wordpress 2.7 or higher.
+*Wordpress versions:* Wordpress 2.7 and up.
 
-**How should I setup ClickDesk live chat for my site?**
+**How should I setup Contact-Call for my site?**
 
-It's very simple. Just follow the easy steps listed below
+Its very simple. Just follow the easy steps listed below
 
-* Install and activate the plugin
-* Add operator
-* Create a department and add this operator
-* Click on "Install Plugin" to see ClickDesk live on your website
-* Click on 'Add HelpDesk' if you would like to enable the built-in lite help desk feature
+* Install and activate Contat-Call plugin
+* Setup your preferences - User interface (color, layout etc) and phone preferences (where do you want to take calls etc - phone, gtalk, skype, sip)
+* Save the preferences
+* Done!! You are now live and are ready to take free calls from your customers.
 
-*Thanks for using ClickDesk* :)
+
+*Thanks for using us* :)
