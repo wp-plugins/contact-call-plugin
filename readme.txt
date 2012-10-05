@@ -1,8 +1,8 @@
 === Contact Call Plugin - Voice Plugin for Websites ===
 Contributors: jagan.2desk
-Tags: widget, plugin, sidebar, contact, phone, call, click to call, skype, voice, help, support, livehelp, call us, contactcall, voip, live chat, push2call
+Tags: widget, plugin, sidebar, contact, phone, call, click to call, skype, voice, help, support, livehelp, call us, contactcall, voip, live chat, push2call, live chat, live support, live chat plugin, wordpress live chat plugin, live help, skype call plugin, gtalk call, voice plugin, call plugin
 Requires at least: 2.7
-Tested up to: 3.2.1
+Tested up to: 3.4.2
 Stable tag: 2.0
 
 
