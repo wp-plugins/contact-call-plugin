@@ -13,10 +13,12 @@ FREE Call-Us button lets your web visitors call you from their browser or local 
 
 Contact-Call plugin lets your website visitors call and contact you from your website across the globe for free. You can take call on your skype/GTalk/Mobile phone.
 
+**Download ClickDesk**
+
 If you are looking to provide both **online live chat and call** support - please install our **ClickDesk plugin** - http://wordpress.org/extend/plugins/clickdesk-live-support-chat-plugin/
 
-**ClickDesk** 
-“Top 10 most useful plugins of 2011” - The Programming Blog
+**ClickDesk** is among the Top 10 most useful plugins of 2011 by My Programming Blog
+
 
 NetworkWorld mentioned that Contact-Call is "an extension to your social media presence or Web site" and has given a *rating of 4.5/5.*
 
