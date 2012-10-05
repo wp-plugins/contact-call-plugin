@@ -3,7 +3,7 @@ Contributors: jagan.2desk
 Tags: widget, plugin, sidebar, contact, phone, call, click to call, skype, voice, help, support, livehelp, call us, contactcall, voip, live chat, push2call
 Requires at least: 2.7
 Tested up to: 3.2.1
-Stable tag: 1.3a
+Stable tag: 2.0
 
 
 FREE Call-Us button lets your web visitors call you from their browser or local access numbers in 40+ countries. Answer on Skype, GTalk or any phone.
@@ -13,10 +13,10 @@ FREE Call-Us button lets your web visitors call you from their browser or local 
 
 Contact-Call plugin lets your website visitors call and contact you from your website across the globe for free. You can take call on your skype/GTalk/Mobile phone.
 
+**Download ClickDesk**
 If you are looking to provide both **online live chat and call** support - please install our ClickDesk plugin - http://wordpress.org/extend/plugins/clickdesk-live-support-chat-plugin/
 
-**ClickDesk** 
-“Top 10 most useful plugins of 2011” - The Programming Blog
+**ClickDesk** got listed among the Top 10 most useful plugins of 2011 by My Programming Blog
 
 
 NetworkWorld mentioned that Contact-Call is "an extension to your social media presence or Web site" and has given a *rating of 4.5/5.*
@@ -71,6 +71,12 @@ Publish the widget on your website, blog, LinkedIn, twitter and on your email an
 
 
 == Changelog ==
+
+= 2.0 =
+
+* Major Upgrade
+* Addition of live chat, call, voice chat & social toolbar
+* Bugs fixed
 
 = 1.3a =
 
